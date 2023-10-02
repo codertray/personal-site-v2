@@ -1,0 +1,62 @@
+body{
+    background: black;
+}
+.text{
+    color: white;
+    font-size: 16pt;
+    font-family: 'Montserrat', sans-serif;
+}
+h1, .col h1{
+    font-size: 3rem;
+    font-family: 'EB Garamond', serif; 
+}
+h2, .col h2, h2.text, .col a{
+    font-size: 2rem;
+    font-family: 'EB Garamond', serif; 
+}
+.hero .text, .contact .text, .footer .text{
+    text-align: center;
+}
+.container> .text, .container p{
+    text-align: center;
+}
+.profile-photo{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.gradient-background{
+    background-color: transparent;
+    background: linear-gradient(#00134D, #00576B);
+}
+.screenshot{
+    width: 250px;
+}
+.btn{
+    font-size: 2rem;
+    padding: 2px 4px;
+}
+a.btn, .btn> a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+.btn-success{
+    background-color: seagreen;
+}
+a, .text> a{
+    color: seagreen;
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: underline;
+}
+@media (max-width: 720px){
+    .profile-photo{
+        width: 150px;
+        height: 150px;
+    }
+    .screenshot{
+        width: 100px;
+    }
+}
